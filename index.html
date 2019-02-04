@@ -38,6 +38,8 @@
     </header>
 
     <figure>
+        <!--  Iframe was used for inputing youtube videos.-->
+        <iframe src="http://www.youtube.com/embed/ie2Mspukx14"></iframe>
         <figcaption>Robert Frost reads <cite>The Road Not Taken</cite></figcaption>
     </figure>
 
@@ -71,7 +73,15 @@
 
         <section class="poem">
             <h2>Fire and Ice</h2>
+            <!-- to input the two audios "fireice" as well as "devotion" I put in an audio first. Within the audio, in put in two sources and specified the source within the type. Then I embeded the audio and put its measurements along with all attributes. Then a simple line that says something, with added emphasis. -->
+            <audio controls>
+                <source src="rnt_fireice.mp3" type="audio/mp3" />
+                <source src="rnt_fireice.ogg" type="audio/ogg" />
+                <embed src="rnt_fireice.mp3" type="audio/mp3" width="250px" height="50px" controller autoplay
+                    showcontrols autostart />
+                <p><em>No embedded audio is supported.</em></p>
 
+            </audio>
             <p>
                 Some say the world will end in fire,<br />
                 Some say in ice.<br />
@@ -87,7 +97,14 @@
 
         <section class="poem">
             <h2>Devotion</h2>
+            <audio controls>
+                <source src="rnt_devotion.mp3" type="audio/mp3" />
+                <source src="rnt_devotion.ogg" type="audio/ogg" />
+                <embed src="rnt_devotion.mp3" type="audio/mp3" width="250px" height="50px" controller autoplay
+                    showcontrols autostart />
+                <p><em>No embedded audio is supported.</em></p>
 
+            </audio>
             <p>
                 The heart can think of no devotion<br />
                 Greater than being shore to the ocean&mdash;<br />

@@ -14,3 +14,15 @@
 */
 
 /* Audio Styles */
+/* The audio element is displayed as block, with a shadow of 8 pixels of horizontal and vertical offset. The margin's top and bottom are 20px and left and right margin as auto. */
+audio {
+    display: block;
+    box-shadow: 8px 8px 15px;
+    margin: 20px auto 20px auto;
+    width: 80%;
+}
+
+/* the audio with thw listed selector has a background color of rgb triplet. */
+audio::-webkit-media-controls-panel {
+    background-color: rgb(128, 128, 255);
+}
